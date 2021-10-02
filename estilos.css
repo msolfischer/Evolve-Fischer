@@ -1,0 +1,259 @@
+
+/********************************** Logo de Evolve ***************************************/
+
+h1{ 
+	font-family:Josefin Sans, sans-serif;
+	font-weight: 400;
+	color:black;
+	font-size: 50px;
+	text-align: center;
+	background-color: #ffffff ; 
+	text-align: left;
+
+}
+
+body{
+	background-color: #FFF9F8;
+	margin: 0px;
+}
+
+.header{
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+}
+
+.main-content {
+	background-color: #FFEFE9;
+	padding: 5px 20px 5px;
+	background-image: linear-gradient(to bottom, #FFB7BB, #FEF3EF)
+}
+
+/********************************* Barra de navegacion *******************************/
+
+
+ul {
+	list-style-type:none;
+	padding-inline-start: 0px;
+}
+
+li{ 
+	font-family: 'Poppins', sans-serif;
+	color:#000000;
+	font-weight: 400;
+	font text-decoration: none;
+	display: inline-flex; 
+   margin: 10px;
+}
+
+.flex{
+
+    display: flex;
+    flex-direction: row;
+  	 justify-content: flex-end;
+}
+
+a {
+	text-decoration: none;
+   color: #000000;
+}
+
+a:hover {
+  color: #AA2259;
+  
+}
+
+
+/************************** Titulo e info Quiénes Somos *******************************/
+
+h2{ 
+	font-family: 'Sansita Swashed', cursive;
+	font-weight: regular;
+	color: #AA2259;
+	font-size: 50px;
+	animation-duration: 2s;
+   animation-name: aparecer;
+   animation-iteration-count: none;
+
+}
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+
+h3{ 
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	color: black;
+	font-size: 20px; 
+	padding-right: 50px;
+}
+
+.cremas{
+transform: rotate(20deg);
+padding-right: 30px;
+padding-left: 60px;
+padding-bottom: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+
+}
+
+
+/********************************* Titulos de secciones *******************************/
+
+h2.contacto{
+				font-size: 40px;
+				background-color: #FFEFE9 ;
+}
+
+h2.producto{
+				font-size: 40px;
+				margin: 0px;
+}
+
+/******************************** Productos ************************************/
+
+h3.pack{
+		font-size: 18px;
+		font-weight: 500;
+}
+
+.packs{
+		background-color: #FFEFE9 ;
+		padding: 5px 20px 5px;
+		margin-bottom: 40px;
+		background-image: linear-gradient(to bottom, #FFB7BB, #FEF3EF)
+}
+
+.suscripciones {
+					display: flex;  
+					flex-direction: row; 
+				   justify-content: center;
+				   padding: 0 15px;
+}
+
+/*********************************** Carrito ******************************************/
+
+h2.carrito{
+			font-size: 40px;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	color:#000000;
+	font-weight: 400;
+}
+
+.compra{
+		background-color: #ffffff;
+		padding: 5px 20px 5px;
+}
+
+
+/************************************ Info Como funciona ***********************************/
+
+
+h2.c-funciona{
+				font-size: 40px;
+				background-color: #FFC2D2;
+				padding: 20px 10px 10px 5px;
+				color: #ffffff;
+				margin: 0px;
+}
+
+.cfunciona{
+			background-color: #FFC2D2;
+		   padding: 5px 20px 20px 5px;
+		   display: flex;
+}
+
+h3.categoria{
+				font-weight: 500;
+				font-size: 18px;
+				color: #8C063D;
+}
+
+p.cat-exp{
+			font-family: 'Poppins', sans-serif;
+			color: #C60554;
+}
+
+
+
+/************************************** Iniciar Sesión ****************************************/
+
+form{
+	color: #E23C10;
+}
+
+.usuario{ 
+			font-family: 'Poppins', sans-serif;
+}
+
+.usuario{
+		background-color: #FFEFE9;
+		padding: 5px 20px 5px;
+}
+
+
+
+/************************************** Botones ****************************************/
+
+input{
+	border-color: #ffffff;
+}
+
+
+/************************************** Tabla ****************************************/
+
+table{
+		font-family: 'Poppins', sans-serif;
+		color:#C60554;
+		border-spacing: 15px;
+		padding: 5px 20px 5px;
+}
+
+td.numeros{
+			font-size: 15px;
+}
+
+td.tabla{ 
+			font-size: 17px;
+			font-weight: 600;
+}
+
+.cuadro{
+		border: 3px solid #E2447D ;
+}
+
+/************************************** Footer ****************************************/
+
+.pfooter{ 
+			font-family: 'Poppins', sans-serif;
+			font-weight: 500;
+			font-size: 10px;
+			color:#000000;
+}
+
+.footer{
+	background-color: #ffffff;
+	padding: 5px 20px 5px;
+	display: grid;
+   grid-template-columns: 300px 100px; 
+   grid-template-rows: 40px 40px; 
+   justify-content: center;
+ }
+
+
+
+
+
+
+
